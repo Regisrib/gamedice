@@ -19,7 +19,7 @@ h1 {
     margin: 30px;
     font-family: 'lobster', cursive;
     text-shadow: 4px 0 #032152;
-    font-size: 8rem;
+    font-size: 5rem;
     color: #4ecca3;
 }
 
@@ -36,4 +36,21 @@ footer {
     margin:5%;
     text-align: center;
 color: #eee;
+
+}
+
+ #btnJogar {
+    background-color: #4ecca3;
+    color:#032152;
+    width: 30%;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btnJogar:hover {
+    background-color: #0056b3;
 }
